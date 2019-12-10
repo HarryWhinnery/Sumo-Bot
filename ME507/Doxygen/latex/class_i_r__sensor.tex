@@ -1,0 +1,59 @@
+\hypertarget{class_i_r__sensor}{}\doxysection{I\+R\+\_\+sensor Class Reference}
+\label{class_i_r__sensor}\index{IR\_sensor@{IR\_sensor}}
+
+
+{\ttfamily \#include $<$I\+R\+\_\+sensor.\+h$>$}
+
+\doxysubsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\hyperlink{class_i_r__sensor_a97b1b5df1af8a5bb5fe2010d5ee8bd1c}{I\+R\+\_\+sensor}} (P\+O\+R\+T\+\_\+t $\ast$p\+\_\+port, uint8\+\_\+t pin)
+\item 
+bool \mbox{\hyperlink{class_i_r__sensor_ab659c4143a05d279adcca07f15b0c6a0}{read}} (void)
+\end{DoxyCompactItemize}
+\doxysubsection*{Protected Attributes}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\Hypertarget{class_i_r__sensor_acca02cf055f643ba680f89e6f333c401}\label{class_i_r__sensor_acca02cf055f643ba680f89e6f333c401}} 
+P\+O\+R\+T\+\_\+t $\ast$ {\bfseries gp\+\_\+port}
+\item 
+\mbox{\Hypertarget{class_i_r__sensor_ab435204c0823a90068b5ca17ce010b1b}\label{class_i_r__sensor_ab435204c0823a90068b5ca17ce010b1b}} 
+uint8\+\_\+t {\bfseries gpin\+\_\+bm}
+\end{DoxyCompactItemize}
+
+
+\doxysubsection{Detailed Description}
+This file contains code for a IR sensor class that consists of a constructor to setup the micro controller for the IR sensor and a function to read the pin. 
+
+\doxysubsection{Constructor \& Destructor Documentation}
+\mbox{\Hypertarget{class_i_r__sensor_a97b1b5df1af8a5bb5fe2010d5ee8bd1c}\label{class_i_r__sensor_a97b1b5df1af8a5bb5fe2010d5ee8bd1c}} 
+\index{IR\_sensor@{IR\_sensor}!IR\_sensor@{IR\_sensor}}
+\index{IR\_sensor@{IR\_sensor}!IR\_sensor@{IR\_sensor}}
+\doxysubsubsection{\texorpdfstring{IR\_sensor()}{IR\_sensor()}}
+{\footnotesize\ttfamily I\+R\+\_\+sensor\+::\+I\+R\+\_\+sensor (\begin{DoxyParamCaption}\item[{P\+O\+R\+T\+\_\+t $\ast$}]{p\+\_\+port,  }\item[{uint8\+\_\+t}]{pin }\end{DoxyParamCaption})}
+
+This constructor creates a new IR sensor object. 
+\begin{DoxyParams}{Parameters}
+{\em p\+\_\+port} & The port of the micro controller that the input pin is located on \\
+\hline
+{\em pin} & The number of the input pin \\
+\hline
+\end{DoxyParams}
+
+
+\doxysubsection{Member Function Documentation}
+\mbox{\Hypertarget{class_i_r__sensor_ab659c4143a05d279adcca07f15b0c6a0}\label{class_i_r__sensor_ab659c4143a05d279adcca07f15b0c6a0}} 
+\index{IR\_sensor@{IR\_sensor}!read@{read}}
+\index{read@{read}!IR\_sensor@{IR\_sensor}}
+\doxysubsubsection{\texorpdfstring{read()}{read()}}
+{\footnotesize\ttfamily bool I\+R\+\_\+sensor\+::read (\begin{DoxyParamCaption}\item[{void}]{ }\end{DoxyParamCaption})}
+
+This method reads the output of the IR sensor. \begin{DoxyReturn}{Returns}
+value A boolean that returns true if IR not triggered and false if IR triggered 
+\end{DoxyReturn}
+
+
+The documentation for this class was generated from the following files\+:\begin{DoxyCompactItemize}
+\item 
+Source/\mbox{\hyperlink{_i_r__sensor_8h}{I\+R\+\_\+sensor.\+h}}\item 
+Source/\mbox{\hyperlink{_i_r__sensor_8cpp}{I\+R\+\_\+sensor.\+cpp}}\end{DoxyCompactItemize}

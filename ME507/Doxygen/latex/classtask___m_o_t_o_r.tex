@@ -1,0 +1,75 @@
+\hypertarget{classtask___m_o_t_o_r}{}\doxysection{task\+\_\+\+M\+O\+T\+OR Class Reference}
+\label{classtask___m_o_t_o_r}\index{task\_MOTOR@{task\_MOTOR}}
+
+
+{\ttfamily \#include $<$task\+\_\+\+M\+O\+T\+O\+R.\+h$>$}
+
+Inheritance diagram for task\+\_\+\+M\+O\+T\+OR\+:\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[height=2.000000cm]{classtask___m_o_t_o_r}
+\end{center}
+\end{figure}
+\doxysubsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\hyperlink{classtask___m_o_t_o_r_ac1bab127eb86ce68d380b3353b1dbaa9}{task\+\_\+\+M\+O\+T\+OR}} (const char $\ast$, unsigned port\+B\+A\+S\+E\+\_\+\+T\+Y\+PE, size\+\_\+t, emstream $\ast$)
+\item 
+void \mbox{\hyperlink{classtask___m_o_t_o_r_a82cc6ed362e0b3e9af18ee77c53534f1}{run}} (void)
+\end{DoxyCompactItemize}
+\doxysubsection*{Protected Types}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\Hypertarget{classtask___m_o_t_o_r_a9946c0366b321caaf137435a765dc2c3}\label{classtask___m_o_t_o_r_a9946c0366b321caaf137435a765dc2c3}} 
+enum {\bfseries M\+O\+T\+O\+R\+\_\+states} \{ {\bfseries F\+O\+R\+W\+A\+RD}, 
+{\bfseries M\+O\+T\+O\+R\+\_\+\+S\+T\+OP}, 
+{\bfseries B\+A\+C\+K\+W\+A\+RD}, 
+{\bfseries T\+U\+RN}
+ \}
+\end{DoxyCompactItemize}
+\doxysubsection*{Protected Attributes}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\Hypertarget{classtask___m_o_t_o_r_a2edd543cf89b873623247506753c3178}\label{classtask___m_o_t_o_r_a2edd543cf89b873623247506753c3178}} 
+uint8\+\_\+t \mbox{\hyperlink{classtask___m_o_t_o_r_a2edd543cf89b873623247506753c3178}{ctr}}
+\begin{DoxyCompactList}\small\item\em Loop counter. \end{DoxyCompactList}\end{DoxyCompactItemize}
+
+
+\doxysubsection{Detailed Description}
+This task controls the motors based on the input from the various sensors on the sumo robot. The robot only uses the states for moving forward and turning in one direction due to issues with a motor driver failing. 
+
+\doxysubsection{Constructor \& Destructor Documentation}
+\mbox{\Hypertarget{classtask___m_o_t_o_r_ac1bab127eb86ce68d380b3353b1dbaa9}\label{classtask___m_o_t_o_r_ac1bab127eb86ce68d380b3353b1dbaa9}} 
+\index{task\_MOTOR@{task\_MOTOR}!task\_MOTOR@{task\_MOTOR}}
+\index{task\_MOTOR@{task\_MOTOR}!task\_MOTOR@{task\_MOTOR}}
+\doxysubsubsection{\texorpdfstring{task\_MOTOR()}{task\_MOTOR()}}
+{\footnotesize\ttfamily task\+\_\+\+M\+O\+T\+O\+R\+::task\+\_\+\+M\+O\+T\+OR (\begin{DoxyParamCaption}\item[{const char $\ast$}]{a\+\_\+name,  }\item[{unsigned port\+B\+A\+S\+E\+\_\+\+T\+Y\+PE}]{a\+\_\+priority,  }\item[{size\+\_\+t}]{a\+\_\+stack\+\_\+size,  }\item[{emstream $\ast$}]{p\+\_\+ser\+\_\+dev }\end{DoxyParamCaption})}
+
+This constructor creates a new motor control task. Its main job is to call the parent class\textquotesingle{}s constructor which does most of the work. 
+\begin{DoxyParams}{Parameters}
+{\em a\+\_\+name} & A character string which will be the name of this task \\
+\hline
+{\em a\+\_\+priority} & The priority at which this task will initially run (default\+: 0) \\
+\hline
+{\em a\+\_\+stack\+\_\+size} & The size of this task\textquotesingle{}s stack in bytes (default\+: config\+M\+I\+N\+I\+M\+A\+L\+\_\+\+S\+T\+A\+C\+K\+\_\+\+S\+I\+ZE) \\
+\hline
+{\em p\+\_\+ser\+\_\+dev} & Pointer to a serial device (port, radio, SD card, etc.) which can be used by this task to communicate (default\+: N\+U\+LL) \\
+\hline
+\end{DoxyParams}
+
+
+\doxysubsection{Member Function Documentation}
+\mbox{\Hypertarget{classtask___m_o_t_o_r_a82cc6ed362e0b3e9af18ee77c53534f1}\label{classtask___m_o_t_o_r_a82cc6ed362e0b3e9af18ee77c53534f1}} 
+\index{task\_MOTOR@{task\_MOTOR}!run@{run}}
+\index{run@{run}!task\_MOTOR@{task\_MOTOR}}
+\doxysubsubsection{\texorpdfstring{run()}{run()}}
+{\footnotesize\ttfamily void task\+\_\+\+M\+O\+T\+O\+R\+::run (\begin{DoxyParamCaption}\item[{void}]{ }\end{DoxyParamCaption})}
+
+This method is called by the R\+T\+OS once to run the task loop for ever and ever.
+
+This task controls the motors based on the input from the various sensors on the sumo robot. The robot only uses the states for moving forward and turning in one direction due to issues with a motor driver failing. 
+
+The documentation for this class was generated from the following files\+:\begin{DoxyCompactItemize}
+\item 
+Source/\mbox{\hyperlink{task___m_o_t_o_r_8h}{task\+\_\+\+M\+O\+T\+O\+R.\+h}}\item 
+Source/\mbox{\hyperlink{task___m_o_t_o_r_8cpp}{task\+\_\+\+M\+O\+T\+O\+R.\+cpp}}\end{DoxyCompactItemize}

@@ -1,0 +1,95 @@
+\hypertarget{class_motor___driver}{}\doxysection{Motor\+\_\+\+Driver Class Reference}
+\label{class_motor___driver}\index{Motor\_Driver@{Motor\_Driver}}
+
+
+{\ttfamily \#include $<$Motor\+\_\+\+Driver.\+h$>$}
+
+\doxysubsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\hyperlink{class_motor___driver_a2b038c287ecba6df07ce4a662933553d}{Motor\+\_\+\+Driver}} (P\+O\+R\+T\+\_\+t $\ast$p\+\_\+port, uint8\+\_\+t pinA, uint8\+\_\+t pinB, uint8\+\_\+t pinhA, uint8\+\_\+t pinhB, T\+C0\+\_\+t $\ast$t\+\_\+ctrlA, T\+C0\+\_\+t $\ast$t\+\_\+ctrlB)
+\item 
+void \mbox{\hyperlink{class_motor___driver_a61eadc9803d5b9853bfab6b20ce0c129}{set\+\_\+duty\+\_\+cycle}} (int8\+\_\+t duty\+\_\+cycle)
+\end{DoxyCompactItemize}
+\doxysubsection*{Protected Attributes}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\Hypertarget{class_motor___driver_a5345dc330b63d8e717c8253bb43688bc}\label{class_motor___driver_a5345dc330b63d8e717c8253bb43688bc}} 
+uint8\+\_\+t {\bfseries pin1}
+\item 
+\mbox{\Hypertarget{class_motor___driver_af5a7d300b3d08250414ff497dd95b7f8}\label{class_motor___driver_af5a7d300b3d08250414ff497dd95b7f8}} 
+uint8\+\_\+t {\bfseries pin2}
+\item 
+\mbox{\Hypertarget{class_motor___driver_a5d85cbfa5ce9849ed4d1f69d2e6fe80f}\label{class_motor___driver_a5d85cbfa5ce9849ed4d1f69d2e6fe80f}} 
+P\+O\+R\+T\+\_\+t $\ast$ {\bfseries gp\+\_\+port}
+\item 
+\mbox{\Hypertarget{class_motor___driver_af7d8ea9e1a1ff12f9b298070d045c7a8}\label{class_motor___driver_af7d8ea9e1a1ff12f9b298070d045c7a8}} 
+uint8\+\_\+t {\bfseries gpin\+A\+\_\+bm}
+\item 
+\mbox{\Hypertarget{class_motor___driver_a7f05b16f2390caa7cdb43239cf2eaab5}\label{class_motor___driver_a7f05b16f2390caa7cdb43239cf2eaab5}} 
+uint8\+\_\+t {\bfseries gpin\+B\+\_\+bm}
+\item 
+\mbox{\Hypertarget{class_motor___driver_a89cd70895d267afdf1c447b5aa1ae2ca}\label{class_motor___driver_a89cd70895d267afdf1c447b5aa1ae2ca}} 
+uint8\+\_\+t {\bfseries gpinh\+A\+\_\+bm}
+\item 
+\mbox{\Hypertarget{class_motor___driver_a3321200215655056510c0f9d4adf7cdc}\label{class_motor___driver_a3321200215655056510c0f9d4adf7cdc}} 
+uint8\+\_\+t {\bfseries gpinh\+B\+\_\+bm}
+\item 
+\mbox{\Hypertarget{class_motor___driver_aeec0276e8b6ca89653bc60cbd156124d}\label{class_motor___driver_aeec0276e8b6ca89653bc60cbd156124d}} 
+T\+C0\+\_\+t $\ast$ {\bfseries gt\+\_\+ctrlA}
+\item 
+\mbox{\Hypertarget{class_motor___driver_a58e7bf01d4e4ae0fcfcf92a2d6782b95}\label{class_motor___driver_a58e7bf01d4e4ae0fcfcf92a2d6782b95}} 
+T\+C0\+\_\+t $\ast$ {\bfseries gt\+\_\+ctrlB}
+\item 
+\mbox{\Hypertarget{class_motor___driver_a760930f36cfb06955bbb9f59da4dc6f5}\label{class_motor___driver_a760930f36cfb06955bbb9f59da4dc6f5}} 
+uint16\+\_\+t {\bfseries period}
+\end{DoxyCompactItemize}
+
+
+\doxysubsection{Detailed Description}
+This file contains code for a motor driver class for a board using two half bridge motor drivers. The motor\textquotesingle{}s speed can be controlled through the set\+\_\+duty\+\_\+cycle function. 
+
+\doxysubsection{Constructor \& Destructor Documentation}
+\mbox{\Hypertarget{class_motor___driver_a2b038c287ecba6df07ce4a662933553d}\label{class_motor___driver_a2b038c287ecba6df07ce4a662933553d}} 
+\index{Motor\_Driver@{Motor\_Driver}!Motor\_Driver@{Motor\_Driver}}
+\index{Motor\_Driver@{Motor\_Driver}!Motor\_Driver@{Motor\_Driver}}
+\doxysubsubsection{\texorpdfstring{Motor\_Driver()}{Motor\_Driver()}}
+{\footnotesize\ttfamily Motor\+\_\+\+Driver\+::\+Motor\+\_\+\+Driver (\begin{DoxyParamCaption}\item[{P\+O\+R\+T\+\_\+t $\ast$}]{p\+\_\+port,  }\item[{uint8\+\_\+t}]{pinA,  }\item[{uint8\+\_\+t}]{pinB,  }\item[{uint8\+\_\+t}]{pinhA,  }\item[{uint8\+\_\+t}]{pinhB,  }\item[{T\+C0\+\_\+t $\ast$}]{t\+\_\+ctrlA,  }\item[{T\+C0\+\_\+t $\ast$}]{t\+\_\+ctrlB }\end{DoxyParamCaption})}
+
+This constructor creates a new motor driver. 
+\begin{DoxyParams}{Parameters}
+{\em p\+\_\+port} & The port of the microcontroller that will be outputting P\+WM to motor driver \\
+\hline
+{\em pinA} & The P\+WM output pin for one half bridge \\
+\hline
+{\em pinB} & The P\+WM output pin for second half bridge \\
+\hline
+{\em pinhA} & The enable pin for one half bridge \\
+\hline
+{\em pinhB} & The enable pin for second half bridge \\
+\hline
+{\em t\+\_\+ctrlA} & The timer/counter for the P\+WM for one half bridge \\
+\hline
+{\em t\+\_\+ctrlB} & The timer/counter for the P\+WM for second half bridge \\
+\hline
+\end{DoxyParams}
+
+
+\doxysubsection{Member Function Documentation}
+\mbox{\Hypertarget{class_motor___driver_a61eadc9803d5b9853bfab6b20ce0c129}\label{class_motor___driver_a61eadc9803d5b9853bfab6b20ce0c129}} 
+\index{Motor\_Driver@{Motor\_Driver}!set\_duty\_cycle@{set\_duty\_cycle}}
+\index{set\_duty\_cycle@{set\_duty\_cycle}!Motor\_Driver@{Motor\_Driver}}
+\doxysubsubsection{\texorpdfstring{set\_duty\_cycle()}{set\_duty\_cycle()}}
+{\footnotesize\ttfamily void Motor\+\_\+\+Driver\+::set\+\_\+duty\+\_\+cycle (\begin{DoxyParamCaption}\item[{int8\+\_\+t}]{duty\+\_\+cycle }\end{DoxyParamCaption})}
+
+This method sets the duty cycle of the motor. 
+\begin{DoxyParams}{Parameters}
+{\em duty\+\_\+cycle} & The desired duty cycle of the motor, will saturate if input above 100 or below -\/100 \\
+\hline
+\end{DoxyParams}
+
+
+The documentation for this class was generated from the following files\+:\begin{DoxyCompactItemize}
+\item 
+Source/\mbox{\hyperlink{_motor___driver_8h}{Motor\+\_\+\+Driver.\+h}}\item 
+Source/\mbox{\hyperlink{_motor___driver_8cpp}{Motor\+\_\+\+Driver.\+cpp}}\end{DoxyCompactItemize}

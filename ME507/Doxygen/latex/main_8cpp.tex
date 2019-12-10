@@ -1,0 +1,52 @@
+\hypertarget{main_8cpp}{}\doxysection{Source/main.cpp File Reference}
+\label{main_8cpp}\index{Source/main.cpp@{Source/main.cpp}}
+{\ttfamily \#include $<$stdlib.\+h$>$}\newline
+{\ttfamily \#include $<$avr/io.\+h$>$}\newline
+{\ttfamily \#include $<$avr/wdt.\+h$>$}\newline
+{\ttfamily \#include $<$avr/interrupt.\+h$>$}\newline
+{\ttfamily \#include $<$string.\+h$>$}\newline
+{\ttfamily \#include \char`\"{}Free\+R\+T\+O\+S.\+h\char`\"{}}\newline
+{\ttfamily \#include \char`\"{}task.\+h\char`\"{}}\newline
+{\ttfamily \#include \char`\"{}queue.\+h\char`\"{}}\newline
+{\ttfamily \#include \char`\"{}croutine.\+h\char`\"{}}\newline
+{\ttfamily \#include \char`\"{}rs232int.\+h\char`\"{}}\newline
+{\ttfamily \#include \char`\"{}time\+\_\+stamp.\+h\char`\"{}}\newline
+{\ttfamily \#include \char`\"{}frt\+\_\+task.\+h\char`\"{}}\newline
+{\ttfamily \#include \char`\"{}frt\+\_\+text\+\_\+queue.\+h\char`\"{}}\newline
+{\ttfamily \#include \char`\"{}frt\+\_\+queue.\+h\char`\"{}}\newline
+{\ttfamily \#include \char`\"{}frt\+\_\+shared\+\_\+data.\+h\char`\"{}}\newline
+{\ttfamily \#include \char`\"{}shares.\+h\char`\"{}}\newline
+{\ttfamily \#include \char`\"{}xmega\+\_\+util.\+h\char`\"{}}\newline
+{\ttfamily \#include \char`\"{}task\+\_\+user.\+h\char`\"{}}\newline
+{\ttfamily \#include \char`\"{}task\+\_\+\+L\+E\+D.\+h\char`\"{}}\newline
+{\ttfamily \#include \char`\"{}task\+\_\+\+M\+O\+T\+O\+R.\+h\char`\"{}}\newline
+{\ttfamily \#include \char`\"{}task\+\_\+\+Edge\+Sense.\+h\char`\"{}}\newline
+\doxysubsection*{Functions}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\Hypertarget{main_8cpp_a4c623cb3c8a60e67138367480c1ee0d2}\label{main_8cpp_a4c623cb3c8a60e67138367480c1ee0d2}} 
+frt\+\_\+text\+\_\+queue {\bfseries print\+\_\+ser\+\_\+queue} (32, N\+U\+LL, 10)
+\item 
+int \mbox{\hyperlink{main_8cpp_a840291bc02cba5474a4cb46a9b9566fe}{main}} (void)
+\end{DoxyCompactItemize}
+\doxysubsection*{Variables}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\Hypertarget{main_8cpp_a16f60bc43dc2165264cd1cb722a5d4f2}\label{main_8cpp_a16f60bc43dc2165264cd1cb722a5d4f2}} 
+shared\+\_\+data$<$ bool $>$ $\ast$ {\bfseries I\+R\+\_\+flg}
+\end{DoxyCompactItemize}
+
+
+\doxysubsection{Detailed Description}
+This file contains the \mbox{\hyperlink{main_8cpp_a840291bc02cba5474a4cb46a9b9566fe}{main()}} code for a program which runs a port of the Free\+R\+T\+OS for A\+VR devices for a sumo robot. This port is specific to the X\+M\+E\+GA family. License\+: This file is released under the Lesser G\+NU Public License, version 2. This program is intended for educational use only, but it is not limited thereto. 
+
+\doxysubsection{Function Documentation}
+\mbox{\Hypertarget{main_8cpp_a840291bc02cba5474a4cb46a9b9566fe}\label{main_8cpp_a840291bc02cba5474a4cb46a9b9566fe}} 
+\index{main.cpp@{main.cpp}!main@{main}}
+\index{main@{main}!main.cpp@{main.cpp}}
+\doxysubsubsection{\texorpdfstring{main()}{main()}}
+{\footnotesize\ttfamily int main (\begin{DoxyParamCaption}\item[{void}]{ }\end{DoxyParamCaption})}
+
+The main function sets up the R\+T\+OS. Some test tasks are created. Then the scheduler is started up; the scheduler runs until power is turned off or there\textquotesingle{}s a reset. \begin{DoxyReturn}{Returns}
+This is a real-\/time microcontroller program which doesn\textquotesingle{}t return. Ever. 
+\end{DoxyReturn}

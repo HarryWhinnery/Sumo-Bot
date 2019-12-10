@@ -1,0 +1,59 @@
+\hypertarget{classtask___edge_sense}{}\doxysection{task\+\_\+\+Edge\+Sense Class Reference}
+\label{classtask___edge_sense}\index{task\_EdgeSense@{task\_EdgeSense}}
+
+
+{\ttfamily \#include $<$task\+\_\+\+Edge\+Sense.\+h$>$}
+
+Inheritance diagram for task\+\_\+\+Edge\+Sense\+:\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[height=2.000000cm]{classtask___edge_sense}
+\end{center}
+\end{figure}
+\doxysubsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\hyperlink{classtask___edge_sense_a0cb915165803bea33223d8085e48e9e7}{task\+\_\+\+Edge\+Sense}} (const char $\ast$, unsigned port\+B\+A\+S\+E\+\_\+\+T\+Y\+PE, size\+\_\+t, emstream $\ast$)
+\item 
+void \mbox{\hyperlink{classtask___edge_sense_a1395afbfcdb6e76967d3e8a304b481cd}{run}} (void)
+\end{DoxyCompactItemize}
+
+
+\doxysubsection{Detailed Description}
+This task reads the IR sensors attached to the sumo robot for the purpose of detecting the edge of the competition ring, a white line. If a sensor is triggered, the boolean share I\+R\+\_\+flg is changed to true. 
+
+\doxysubsection{Constructor \& Destructor Documentation}
+\mbox{\Hypertarget{classtask___edge_sense_a0cb915165803bea33223d8085e48e9e7}\label{classtask___edge_sense_a0cb915165803bea33223d8085e48e9e7}} 
+\index{task\_EdgeSense@{task\_EdgeSense}!task\_EdgeSense@{task\_EdgeSense}}
+\index{task\_EdgeSense@{task\_EdgeSense}!task\_EdgeSense@{task\_EdgeSense}}
+\doxysubsubsection{\texorpdfstring{task\_EdgeSense()}{task\_EdgeSense()}}
+{\footnotesize\ttfamily task\+\_\+\+Edge\+Sense\+::task\+\_\+\+Edge\+Sense (\begin{DoxyParamCaption}\item[{const char $\ast$}]{a\+\_\+name,  }\item[{unsigned port\+B\+A\+S\+E\+\_\+\+T\+Y\+PE}]{a\+\_\+priority,  }\item[{size\+\_\+t}]{a\+\_\+stack\+\_\+size,  }\item[{emstream $\ast$}]{p\+\_\+ser\+\_\+dev }\end{DoxyParamCaption})}
+
+This constructor creates a new edge sensing task. Its main job is to call the parent class\textquotesingle{}s constructor which does most of the work. 
+\begin{DoxyParams}{Parameters}
+{\em a\+\_\+name} & A character string which will be the name of this task \\
+\hline
+{\em a\+\_\+priority} & The priority at which this task will initially run (default\+: 0) \\
+\hline
+{\em a\+\_\+stack\+\_\+size} & The size of this task\textquotesingle{}s stack in bytes (default\+: config\+M\+I\+N\+I\+M\+A\+L\+\_\+\+S\+T\+A\+C\+K\+\_\+\+S\+I\+ZE) \\
+\hline
+{\em p\+\_\+ser\+\_\+dev} & Pointer to a serial device (port, radio, SD card, etc.) which can be used by this task to communicate (default\+: N\+U\+LL) \\
+\hline
+\end{DoxyParams}
+
+
+\doxysubsection{Member Function Documentation}
+\mbox{\Hypertarget{classtask___edge_sense_a1395afbfcdb6e76967d3e8a304b481cd}\label{classtask___edge_sense_a1395afbfcdb6e76967d3e8a304b481cd}} 
+\index{task\_EdgeSense@{task\_EdgeSense}!run@{run}}
+\index{run@{run}!task\_EdgeSense@{task\_EdgeSense}}
+\doxysubsubsection{\texorpdfstring{run()}{run()}}
+{\footnotesize\ttfamily void task\+\_\+\+Edge\+Sense\+::run (\begin{DoxyParamCaption}\item[{void}]{ }\end{DoxyParamCaption})}
+
+This method is called by the R\+T\+OS once to run the task loop for ever and ever.
+
+This task reads the IR sensors attached to the sumo robot for the purpose of detecting the edge of the competition ring, a white line. If a sensor is triggered, the boolean share I\+R\+\_\+flg is changed to true. 
+
+The documentation for this class was generated from the following files\+:\begin{DoxyCompactItemize}
+\item 
+Source/\mbox{\hyperlink{task___edge_sense_8h}{task\+\_\+\+Edge\+Sense.\+h}}\item 
+Source/\mbox{\hyperlink{task___edge_sense_8cpp}{task\+\_\+\+Edge\+Sense.\+cpp}}\end{DoxyCompactItemize}
