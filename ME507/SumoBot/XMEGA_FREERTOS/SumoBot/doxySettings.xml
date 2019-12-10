@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="utf-8"?>
+<DoxySettings xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <SettingsFile>C:\Users\baile\Desktop\Sumo-Bot-master\CODE BITS 12-8-19\XMEGA_FREERTOS_ATMEL_STUDIO_PROJECT\XMEGA_FREERTOS\FREERTOS_SHELL\doxySettings.xml</SettingsFile>
+  <ProjectName>FREERTOS_SHELL</ProjectName>
+  <DoxyExePath>D:\AtmelStudio\doxygen\bin\doxygen.exe</DoxyExePath>
+  <UseDefaultSettings>true</UseDefaultSettings>
+  <GenerateAsPartOfBuild>true</GenerateAsPartOfBuild>
+  <ConfigFilePath>C:\Users\baile\Desktop\Sumo-Bot-master\CODE BITS 12-8-19\XMEGA_FREERTOS_ATMEL_STUDIO_PROJECT\XMEGA_FREERTOS\FREERTOS_SHELL\doxyfile</ConfigFilePath>
+  <OutputDirPath>C:\Users\baile\Desktop\Doxygen</OutputDirPath>
+  <Excluded>C:\Users\baile\Desktop\Sumo-Bot-master\CODE BITS 12-8-19\XMEGA_FREERTOS_ATMEL_STUDIO_PROJECT\XMEGA_FREERTOS\FREERTOS_SHELL\Source\lib\freertos\croutine.c</Excluded>
+  <Excluded>C:\Users\baile\Desktop\Sumo-Bot-master\CODE BITS 12-8-19\XMEGA_FREERTOS_ATMEL_STUDIO_PROJECT\XMEGA_FREERTOS\FREERTOS_SHELL\Source\lib\freertos\croutine.h</Excluded>
+  <Excluded>C:\Users\baile\Desktop\Sumo-Bot-master\CODE BITS 12-8-19\XMEGA_FREERTOS_ATMEL_STUDIO_PROJECT\XMEGA_FREERTOS\FREERTOS_SHELL\Source\lib\freertos\FreeRTOS.h</Excluded>
+  <Excluded>C:\Users\baile\Desktop\Sumo-Bot-master\CODE BITS 12-8-19\XMEGA_FREERTOS_ATMEL_STUDIO_PROJECT\XMEGA_FREERTOS\FREERTOS_SHELL\Source\lib\freertos\FreeRTOSConfig.h</Excluded>
+  <Excluded>C:\Users\baile\Desktop\Sumo-Bot-master\CODE BITS 12-8-19\XMEGA_FREERTOS_ATMEL_STUDIO_PROJECT\XMEGA_FREERTOS\FREERTOS_SHELL\Source\lib\freertos\heap_1.c</Excluded>
+  <Excluded>C:\Users\baile\Desktop\Sumo-Bot-master\CODE BITS 12-8-19\XMEGA_FREERTOS_ATMEL_STUDIO_PROJECT\XMEGA_FREERTOS\FREERTOS_SHELL\Source\lib\freertos\heap_2.c</Excluded>
+  <Excluded>C:\Users\baile\Desktop\Sumo-Bot-master\CODE BITS 12-8-19\XMEGA_FREERTOS_ATMEL_STUDIO_PROJECT\XMEGA_FREERTOS\FREERTOS_SHELL\Source\lib\freertos\heap_3.c</Excluded>
+  <Excluded>C:\Users\baile\Desktop\Sumo-Bot-master\CODE BITS 12-8-19\XMEGA_FREERTOS_ATMEL_STUDIO_PROJECT\XMEGA_FREERTOS\FREERTOS_SHELL\Source\lib\freertos\list.c</Excluded>
+  <Excluded>C:\Users\baile\Desktop\Sumo-Bot-master\CODE BITS 12-8-19\XMEGA_FREERTOS_ATMEL_STUDIO_PROJECT\XMEGA_FREERTOS\FREERTOS_SHELL\Source\lib\freertos\list.h</Excluded>
+  <Excluded>C:\Users\baile\Desktop\Sumo-Bot-master\CODE BITS 12-8-19\XMEGA_FREERTOS_ATMEL_STUDIO_PROJECT\XMEGA_FREERTOS\FREERTOS_SHELL\Source\lib\freertos\mpu_wrappers.h</Excluded>
+  <Excluded>C:\Users\baile\Desktop\Sumo-Bot-master\CODE BITS 12-8-19\XMEGA_FREERTOS_ATMEL_STUDIO_PROJECT\XMEGA_FREERTOS\FREERTOS_SHELL\Source\lib\freertos\port.c</Excluded>
+  <Excluded>C:\Users\baile\Desktop\Sumo-Bot-master\CODE BITS 12-8-19\XMEGA_FREERTOS_ATMEL_STUDIO_PROJECT\XMEGA_FREERTOS\FREERTOS_SHELL\Source\lib\freertos\portable.h</Excluded>
+  <Excluded>C:\Users\baile\Desktop\Sumo-Bot-master\CODE BITS 12-8-19\XMEGA_FREERTOS_ATMEL_STUDIO_PROJECT\XMEGA_FREERTOS\FREERTOS_SHELL\Source\lib\freertos\portmacro.h</Excluded>
+  <Excluded>C:\Users\baile\Desktop\Sumo-Bot-master\CODE BITS 12-8-19\XMEGA_FREERTOS_ATMEL_STUDIO_PROJECT\XMEGA_FREERTOS\FREERTOS_SHELL\Source\lib\freertos\projdefs.h</Excluded>
+  <Excluded>C:\Users\baile\Desktop\Sumo-Bot-master\CODE BITS 12-8-19\XMEGA_FREERTOS_ATMEL_STUDIO_PROJECT\XMEGA_FREERTOS\FREERTOS_SHELL\Source\lib\freertos\queue.c</Excluded>
+  <Excluded>C:\Users\baile\Desktop\Sumo-Bot-master\CODE BITS 12-8-19\XMEGA_FREERTOS_ATMEL_STUDIO_PROJECT\XMEGA_FREERTOS\FREERTOS_SHELL\Source\lib\freertos\queue.h</Excluded>
+  <Excluded>C:\Users\baile\Desktop\Sumo-Bot-master\CODE BITS 12-8-19\XMEGA_FREERTOS_ATMEL_STUDIO_PROJECT\XMEGA_FREERTOS\FREERTOS_SHELL\Source\lib\freertos\semphr.h</Excluded>
+  <Excluded>C:\Users\baile\Desktop\Sumo-Bot-master\CODE BITS 12-8-19\XMEGA_FREERTOS_ATMEL_STUDIO_PROJECT\XMEGA_FREERTOS\FREERTOS_SHELL\Source\lib\freertos\StackMacros.h</Excluded>
+  <Excluded>C:\Users\baile\Desktop\Sumo-Bot-master\CODE BITS 12-8-19\XMEGA_FREERTOS_ATMEL_STUDIO_PROJECT\XMEGA_FREERTOS\FREERTOS_SHELL\Source\lib\freertos\task.h</Excluded>
+  <Excluded>C:\Users\baile\Desktop\Sumo-Bot-master\CODE BITS 12-8-19\XMEGA_FREERTOS_ATMEL_STUDIO_PROJECT\XMEGA_FREERTOS\FREERTOS_SHELL\Source\lib\freertos\tasks.c</Excluded>
+  <Excluded>C:\Users\baile\Desktop\Sumo-Bot-master\CODE BITS 12-8-19\XMEGA_FREERTOS_ATMEL_STUDIO_PROJECT\XMEGA_FREERTOS\FREERTOS_SHELL\Source\lib\freertos\timers.h</Excluded>
+  <Excluded>C:\Users\baile\Desktop\Sumo-Bot-master\CODE BITS 12-8-19\XMEGA_FREERTOS_ATMEL_STUDIO_PROJECT\XMEGA_FREERTOS\FREERTOS_SHELL\Source\lib\frtcpp\base_data_receiver.cpp</Excluded>
+  <Excluded>C:\Users\baile\Desktop\Sumo-Bot-master\CODE BITS 12-8-19\XMEGA_FREERTOS_ATMEL_STUDIO_PROJECT\XMEGA_FREERTOS\FREERTOS_SHELL\Source\lib\frtcpp\base_data_receiver.h</Excluded>
+  <Excluded>C:\Users\baile\Desktop\Sumo-Bot-master\CODE BITS 12-8-19\XMEGA_FREERTOS_ATMEL_STUDIO_PROJECT\XMEGA_FREERTOS\FREERTOS_SHELL\Source\lib\frtcpp\frt_base_queue.h</Excluded>
+  <Excluded>C:\Users\baile\Desktop\Sumo-Bot-master\CODE BITS 12-8-19\XMEGA_FREERTOS_ATMEL_STUDIO_PROJECT\XMEGA_FREERTOS\FREERTOS_SHELL\Source\lib\frtcpp\frt_queue.h</Excluded>
+  <Excluded>C:\Users\baile\Desktop\Sumo-Bot-master\CODE BITS 12-8-19\XMEGA_FREERTOS_ATMEL_STUDIO_PROJECT\XMEGA_FREERTOS\FREERTOS_SHELL\Source\lib\frtcpp\frt_shared_data.h</Excluded>
+  <Excluded>C:\Users\baile\Desktop\Sumo-Bot-master\CODE BITS 12-8-19\XMEGA_FREERTOS_ATMEL_STUDIO_PROJECT\XMEGA_FREERTOS\FREERTOS_SHELL\Source\lib\frtcpp\frt_task.cpp</Excluded>
+  <Excluded>C:\Users\baile\Desktop\Sumo-Bot-master\CODE BITS 12-8-19\XMEGA_FREERTOS_ATMEL_STUDIO_PROJECT\XMEGA_FREERTOS\FREERTOS_SHELL\Source\lib\frtcpp\frt_task.h</Excluded>
+  <Excluded>C:\Users\baile\Desktop\Sumo-Bot-master\CODE BITS 12-8-19\XMEGA_FREERTOS_ATMEL_STUDIO_PROJECT\XMEGA_FREERTOS\FREERTOS_SHELL\Source\lib\frtcpp\frt_task_stackprt.cpp</Excluded>
+  <Excluded>C:\Users\baile\Desktop\Sumo-Bot-master\CODE BITS 12-8-19\XMEGA_FREERTOS_ATMEL_STUDIO_PROJECT\XMEGA_FREERTOS\FREERTOS_SHELL\Source\lib\frtcpp\frt_task_status.cpp</Excluded>
+  <Excluded>C:\Users\baile\Desktop\Sumo-Bot-master\CODE BITS 12-8-19\XMEGA_FREERTOS_ATMEL_STUDIO_PROJECT\XMEGA_FREERTOS\FREERTOS_SHELL\Source\lib\frtcpp\frt_text_queue.cpp</Excluded>
+  <Excluded>C:\Users\baile\Desktop\Sumo-Bot-master\CODE BITS 12-8-19\XMEGA_FREERTOS_ATMEL_STUDIO_PROJECT\XMEGA_FREERTOS\FREERTOS_SHELL\Source\lib\frtcpp\frt_text_queue.h</Excluded>
+  <Excluded>C:\Users\baile\Desktop\Sumo-Bot-master\CODE BITS 12-8-19\XMEGA_FREERTOS_ATMEL_STUDIO_PROJECT\XMEGA_FREERTOS\FREERTOS_SHELL\Source\lib\frtcpp\func_get_run_time_counter.cpp</Excluded>
+  <Excluded>C:\Users\baile\Desktop\Sumo-Bot-master\CODE BITS 12-8-19\XMEGA_FREERTOS_ATMEL_STUDIO_PROJECT\XMEGA_FREERTOS\FREERTOS_SHELL\Source\lib\frtcpp\shared_data_receiver.h</Excluded>
+  <Excluded>C:\Users\baile\Desktop\Sumo-Bot-master\CODE BITS 12-8-19\XMEGA_FREERTOS_ATMEL_STUDIO_PROJECT\XMEGA_FREERTOS\FREERTOS_SHELL\Source\lib\frtcpp\shared_data_sender.h</Excluded>
+  <Excluded>C:\Users\baile\Desktop\Sumo-Bot-master\CODE BITS 12-8-19\XMEGA_FREERTOS_ATMEL_STUDIO_PROJECT\XMEGA_FREERTOS\FREERTOS_SHELL\Source\lib\frtcpp\time_stamp.h</Excluded>
+  <Excluded>C:\Users\baile\Desktop\Sumo-Bot-master\CODE BITS 12-8-19\XMEGA_FREERTOS_ATMEL_STUDIO_PROJECT\XMEGA_FREERTOS\FREERTOS_SHELL\Source\lib\frtcpp\time_stamp_equal.cpp</Excluded>
+  <Excluded>C:\Users\baile\Desktop\Sumo-Bot-master\CODE BITS 12-8-19\XMEGA_FREERTOS_ATMEL_STUDIO_PROJECT\XMEGA_FREERTOS\FREERTOS_SHELL\Source\lib\frtcpp\time_stamp_get_us.cpp</Excluded>
+  <Excluded>C:\Users\baile\Desktop\Sumo-Bot-master\CODE BITS 12-8-19\XMEGA_FREERTOS_ATMEL_STUDIO_PROJECT\XMEGA_FREERTOS\FREERTOS_SHELL\Source\lib\frtcpp\time_stamp_greater.cpp</Excluded>
+  <Excluded>C:\Users\baile\Desktop\Sumo-Bot-master\CODE BITS 12-8-19\XMEGA_FREERTOS_ATMEL_STUDIO_PROJECT\XMEGA_FREERTOS\FREERTOS_SHELL\Source\lib\frtcpp\time_stamp_greater_eq.cpp</Excluded>
+  <Excluded>C:\Users\baile\Desktop\Sumo-Bot-master\CODE BITS 12-8-19\XMEGA_FREERTOS_ATMEL_STUDIO_PROJECT\XMEGA_FREERTOS\FREERTOS_SHELL\Source\lib\frtcpp\time_stamp_less.cpp</Excluded>
+  <Excluded>C:\Users\baile\Desktop\Sumo-Bot-master\CODE BITS 12-8-19\XMEGA_FREERTOS_ATMEL_STUDIO_PROJECT\XMEGA_FREERTOS\FREERTOS_SHELL\Source\lib\frtcpp\time_stamp_less_eq.cpp</Excluded>
+  <Excluded>C:\Users\baile\Desktop\Sumo-Bot-master\CODE BITS 12-8-19\XMEGA_FREERTOS_ATMEL_STUDIO_PROJECT\XMEGA_FREERTOS\FREERTOS_SHELL\Source\lib\frtcpp\time_stamp_lshift.cpp</Excluded>
+  <Excluded>C:\Users\baile\Desktop\Sumo-Bot-master\CODE BITS 12-8-19\XMEGA_FREERTOS_ATMEL_STUDIO_PROJECT\XMEGA_FREERTOS\FREERTOS_SHELL\Source\lib\frtcpp\time_stamp_minus.cpp</Excluded>
+  <Excluded>C:\Users\baile\Desktop\Sumo-Bot-master\CODE BITS 12-8-19\XMEGA_FREERTOS_ATMEL_STUDIO_PROJECT\XMEGA_FREERTOS\FREERTOS_SHELL\Source\lib\frtcpp\time_stamp_minus_eq.cpp</Excluded>
+  <Excluded>C:\Users\baile\Desktop\Sumo-Bot-master\CODE BITS 12-8-19\XMEGA_FREERTOS_ATMEL_STUDIO_PROJECT\XMEGA_FREERTOS\FREERTOS_SHELL\Source\lib\frtcpp\time_stamp_not_equal.cpp</Excluded>
+  <Excluded>C:\Users\baile\Desktop\Sumo-Bot-master\CODE BITS 12-8-19\XMEGA_FREERTOS_ATMEL_STUDIO_PROJECT\XMEGA_FREERTOS\FREERTOS_SHELL\Source\lib\frtcpp\time_stamp_plus.cpp</Excluded>
+  <Excluded>C:\Users\baile\Desktop\Sumo-Bot-master\CODE BITS 12-8-19\XMEGA_FREERTOS_ATMEL_STUDIO_PROJECT\XMEGA_FREERTOS\FREERTOS_SHELL\Source\lib\frtcpp\time_stamp_plus_eq.cpp</Excluded>
+  <Excluded>C:\Users\baile\Desktop\Sumo-Bot-master\CODE BITS 12-8-19\XMEGA_FREERTOS_ATMEL_STUDIO_PROJECT\XMEGA_FREERTOS\FREERTOS_SHELL\Source\lib\frtcpp\time_stamp_tick_res_time.cpp</Excluded>
+  <Excluded>C:\Users\baile\Desktop\Sumo-Bot-master\CODE BITS 12-8-19\XMEGA_FREERTOS_ATMEL_STUDIO_PROJECT\XMEGA_FREERTOS\FREERTOS_SHELL\Source\lib\frtcpp\time_stamp_to_float.cpp</Excluded>
+  <Excluded>C:\Users\baile\Desktop\Sumo-Bot-master\CODE BITS 12-8-19\XMEGA_FREERTOS_ATMEL_STUDIO_PROJECT\XMEGA_FREERTOS\FREERTOS_SHELL\Source\lib\frtcpp\time_stamp_to_now.cpp</Excluded>
+  <Excluded>C:\Users\baile\Desktop\Sumo-Bot-master\CODE BITS 12-8-19\XMEGA_FREERTOS_ATMEL_STUDIO_PROJECT\XMEGA_FREERTOS\FREERTOS_SHELL\Source\lib\frtcpp\time_stamp_to_now_ISR.cpp</Excluded>
+  <Excluded>C:\Users\baile\Desktop\Sumo-Bot-master\CODE BITS 12-8-19\XMEGA_FREERTOS_ATMEL_STUDIO_PROJECT\XMEGA_FREERTOS\FREERTOS_SHELL\Source\lib\frtcpp\unsafe_text_queue.h</Excluded>
+  <Excluded>C:\Users\baile\Desktop\Sumo-Bot-master\CODE BITS 12-8-19\XMEGA_FREERTOS_ATMEL_STUDIO_PROJECT\XMEGA_FREERTOS\FREERTOS_SHELL\Source\lib\misc\circ_buffer.h</Excluded>
+  <Excluded>C:\Users\baile\Desktop\Sumo-Bot-master\CODE BITS 12-8-19\XMEGA_FREERTOS_ATMEL_STUDIO_PROJECT\XMEGA_FREERTOS\FREERTOS_SHELL\Source\lib\misc\hex_dump_memory.cpp</Excluded>
+  <Excluded>C:\Users\baile\Desktop\Sumo-Bot-master\CODE BITS 12-8-19\XMEGA_FREERTOS_ATMEL_STUDIO_PROJECT\XMEGA_FREERTOS\FREERTOS_SHELL\Source\lib\misc\mechutil.cpp</Excluded>
+  <Excluded>C:\Users\baile\Desktop\Sumo-Bot-master\CODE BITS 12-8-19\XMEGA_FREERTOS_ATMEL_STUDIO_PROJECT\XMEGA_FREERTOS\FREERTOS_SHELL\Source\lib\misc\mechutil.h</Excluded>
+  <Excluded>C:\Users\baile\Desktop\Sumo-Bot-master\CODE BITS 12-8-19\XMEGA_FREERTOS_ATMEL_STUDIO_PROJECT\XMEGA_FREERTOS\FREERTOS_SHELL\Source\lib\serial\ansi_terminal.h</Excluded>
+  <Excluded>C:\Users\baile\Desktop\Sumo-Bot-master\CODE BITS 12-8-19\XMEGA_FREERTOS_ATMEL_STUDIO_PROJECT\XMEGA_FREERTOS\FREERTOS_SHELL\Source\lib\serial\base232.cpp</Excluded>
+  <Excluded>C:\Users\baile\Desktop\Sumo-Bot-master\CODE BITS 12-8-19\XMEGA_FREERTOS_ATMEL_STUDIO_PROJECT\XMEGA_FREERTOS\FREERTOS_SHELL\Source\lib\serial\base232.h</Excluded>
+  <Excluded>C:\Users\baile\Desktop\Sumo-Bot-master\CODE BITS 12-8-19\XMEGA_FREERTOS_ATMEL_STUDIO_PROJECT\XMEGA_FREERTOS\FREERTOS_SHELL\Source\lib\serial\emstream.cpp</Excluded>
+  <Excluded>C:\Users\baile\Desktop\Sumo-Bot-master\CODE BITS 12-8-19\XMEGA_FREERTOS_ATMEL_STUDIO_PROJECT\XMEGA_FREERTOS\FREERTOS_SHELL\Source\lib\serial\emstream.h</Excluded>
+  <Excluded>C:\Users\baile\Desktop\Sumo-Bot-master\CODE BITS 12-8-19\XMEGA_FREERTOS_ATMEL_STUDIO_PROJECT\XMEGA_FREERTOS\FREERTOS_SHELL\Source\lib\serial\emstream_bool.cpp</Excluded>
+  <Excluded>C:\Users\baile\Desktop\Sumo-Bot-master\CODE BITS 12-8-19\XMEGA_FREERTOS_ATMEL_STUDIO_PROJECT\XMEGA_FREERTOS\FREERTOS_SHELL\Source\lib\serial\emstream_float.cpp</Excluded>
+  <Excluded>C:\Users\baile\Desktop\Sumo-Bot-master\CODE BITS 12-8-19\XMEGA_FREERTOS_ATMEL_STUDIO_PROJECT\XMEGA_FREERTOS\FREERTOS_SHELL\Source\lib\serial\emstream_hex_receive.cpp</Excluded>
+  <Excluded>C:\Users\baile\Desktop\Sumo-Bot-master\CODE BITS 12-8-19\XMEGA_FREERTOS_ATMEL_STUDIO_PROJECT\XMEGA_FREERTOS\FREERTOS_SHELL\Source\lib\serial\emstream_hex_send.cpp</Excluded>
+  <Excluded>C:\Users\baile\Desktop\Sumo-Bot-master\CODE BITS 12-8-19\XMEGA_FREERTOS_ATMEL_STUDIO_PROJECT\XMEGA_FREERTOS\FREERTOS_SHELL\Source\lib\serial\emstream_int16_t.cpp</Excluded>
+  <Excluded>C:\Users\baile\Desktop\Sumo-Bot-master\CODE BITS 12-8-19\XMEGA_FREERTOS_ATMEL_STUDIO_PROJECT\XMEGA_FREERTOS\FREERTOS_SHELL\Source\lib\serial\emstream_int32_t.cpp</Excluded>
+  <Excluded>C:\Users\baile\Desktop\Sumo-Bot-master\CODE BITS 12-8-19\XMEGA_FREERTOS_ATMEL_STUDIO_PROJECT\XMEGA_FREERTOS\FREERTOS_SHELL\Source\lib\serial\emstream_int8_t.cpp</Excluded>
+  <Excluded>C:\Users\baile\Desktop\Sumo-Bot-master\CODE BITS 12-8-19\XMEGA_FREERTOS_ATMEL_STUDIO_PROJECT\XMEGA_FREERTOS\FREERTOS_SHELL\Source\lib\serial\emstream_pointer.cpp</Excluded>
+  <Excluded>C:\Users\baile\Desktop\Sumo-Bot-master\CODE BITS 12-8-19\XMEGA_FREERTOS_ATMEL_STUDIO_PROJECT\XMEGA_FREERTOS\FREERTOS_SHELL\Source\lib\serial\emstream_uint16_t.cpp</Excluded>
+  <Excluded>C:\Users\baile\Desktop\Sumo-Bot-master\CODE BITS 12-8-19\XMEGA_FREERTOS_ATMEL_STUDIO_PROJECT\XMEGA_FREERTOS\FREERTOS_SHELL\Source\lib\serial\emstream_uint32_t.cpp</Excluded>
+  <Excluded>C:\Users\baile\Desktop\Sumo-Bot-master\CODE BITS 12-8-19\XMEGA_FREERTOS_ATMEL_STUDIO_PROJECT\XMEGA_FREERTOS\FREERTOS_SHELL\Source\lib\serial\emstream_uint64_t.cpp</Excluded>
+  <Excluded>C:\Users\baile\Desktop\Sumo-Bot-master\CODE BITS 12-8-19\XMEGA_FREERTOS_ATMEL_STUDIO_PROJECT\XMEGA_FREERTOS\FREERTOS_SHELL\Source\lib\serial\emstream_uint8_t.cpp</Excluded>
+  <Excluded>C:\Users\baile\Desktop\Sumo-Bot-master\CODE BITS 12-8-19\XMEGA_FREERTOS_ATMEL_STUDIO_PROJECT\XMEGA_FREERTOS\FREERTOS_SHELL\Source\lib\serial\rs232int.cpp</Excluded>
+  <Excluded>C:\Users\baile\Desktop\Sumo-Bot-master\CODE BITS 12-8-19\XMEGA_FREERTOS_ATMEL_STUDIO_PROJECT\XMEGA_FREERTOS\FREERTOS_SHELL\Source\lib\serial\rs232int.h</Excluded>
+  <Excluded>C:\Users\baile\Desktop\Sumo-Bot-master\CODE BITS 12-8-19\XMEGA_FREERTOS_ATMEL_STUDIO_PROJECT\XMEGA_FREERTOS\FREERTOS_SHELL\Source\shares.h</Excluded>
+  <Excluded>C:\Users\baile\Desktop\Sumo-Bot-master\CODE BITS 12-8-19\XMEGA_FREERTOS_ATMEL_STUDIO_PROJECT\XMEGA_FREERTOS\FREERTOS_SHELL\Source\task_IR.cpp</Excluded>
+  <Excluded>C:\Users\baile\Desktop\Sumo-Bot-master\CODE BITS 12-8-19\XMEGA_FREERTOS_ATMEL_STUDIO_PROJECT\XMEGA_FREERTOS\FREERTOS_SHELL\Source\task_IR.h</Excluded>
+  <Excluded>C:\Users\baile\Desktop\Sumo-Bot-master\CODE BITS 12-8-19\XMEGA_FREERTOS_ATMEL_STUDIO_PROJECT\XMEGA_FREERTOS\FREERTOS_SHELL\Source\task_LED.cpp</Excluded>
+  <Excluded>C:\Users\baile\Desktop\Sumo-Bot-master\CODE BITS 12-8-19\XMEGA_FREERTOS_ATMEL_STUDIO_PROJECT\XMEGA_FREERTOS\FREERTOS_SHELL\Source\task_LED.h</Excluded>
+  <Excluded>C:\Users\baile\Desktop\Sumo-Bot-master\CODE BITS 12-8-19\XMEGA_FREERTOS_ATMEL_STUDIO_PROJECT\XMEGA_FREERTOS\FREERTOS_SHELL\Source\task_user.cpp</Excluded>
+  <Excluded>C:\Users\baile\Desktop\Sumo-Bot-master\CODE BITS 12-8-19\XMEGA_FREERTOS_ATMEL_STUDIO_PROJECT\XMEGA_FREERTOS\FREERTOS_SHELL\Source\task_user.h</Excluded>
+  <Excluded>C:\Users\baile\Desktop\Sumo-Bot-master\CODE BITS 12-8-19\XMEGA_FREERTOS_ATMEL_STUDIO_PROJECT\XMEGA_FREERTOS\FREERTOS_SHELL\Source\xmega_util.cpp</Excluded>
+  <Excluded>C:\Users\baile\Desktop\Sumo-Bot-master\CODE BITS 12-8-19\XMEGA_FREERTOS_ATMEL_STUDIO_PROJECT\XMEGA_FREERTOS\FREERTOS_SHELL\Source\xmega_util.h</Excluded>
+  <ShowErrorsAndWarnings>false</ShowErrorsAndWarnings>
+</DoxySettings>
